@@ -2,7 +2,7 @@
 
 Syntax highlighting for the YISP Language.
 
-![Screenshot](images/screenshot.png)
+![Screenshot](img/screenshot.png)
 
 ## What is YISP?
 
