@@ -5,7 +5,7 @@
 	"version": "0.0.1",
 	"publisher": "rollinsbaird",
     "author": "rollinsbaird",
-    "icon": "img/CILogo.png",
+    "icon": "img/YISPLogo.png",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
