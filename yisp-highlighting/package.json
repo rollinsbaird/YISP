@@ -1,0 +1,50 @@
+{
+	"name": "yisp-language",
+	"displayName": "YISP Language",
+	"description": "Syntax highlighting for the YISP Language.",
+	"version": "0.0.1",
+	"publisher": "rollinsbaird",
+    "author": "rollinsbaird",
+    "icon": "img/YISPLogo.png",
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+            {
+                "id": "yisp",
+                "aliases": [
+                    "yisp",
+					"Yisp",
+                    "YISP"
+                ],
+                "extensions": [
+                    ".yisp"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "yisp",
+                "scopeName": "source.yisp",
+                "path": "./syntaxes/yisp.tmLanguage.json"
+            }
+        ]
+	},
+	"keywords": [
+        "yisp",
+        "yisp-language",
+        "vscode",
+        "vscode-extension",
+        "vscode-language"
+    ],
+    "license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rollinsbaird/YISP.git"
+	}
+}
